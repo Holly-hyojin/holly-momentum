@@ -1,10 +1,12 @@
 body {
+  margin-top: 60px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   background-color: #f7f1e3;
   color: rgb(233, 183, 211);
-  text-shadow: 1px 1.5px red;
+  text-shadow: 1px 1px red;
   font-size: 30px;
+  font-weight: bold;
   /*transition: color .5s ease-in-out;*/
 }
 
@@ -46,4 +48,8 @@ ul {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-weather {
+  padding-top: 30px;
 }
